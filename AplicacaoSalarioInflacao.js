@@ -1,4 +1,4 @@
-import imput from 'readline-sync';
+import input from 'readline-sync'; //Package which enables inputs with only JavaScript
 
 let salarioMinimo = [
 
@@ -36,7 +36,7 @@ console.log("1- Listar os salários mínimos de 2010 à 2020");
 console.log("2- Listar o indice IPCA de 2010 à 2020");
 console.log("3- Comparação entre o porcentual de aumento salarial e o IPCA\n");
 
-let opcao = imput.question('Digite o numero da sua escolha: \n');
+let opcao = input.question('Digite o numero da sua escolha: \n');
 
 opcao = Number(opcao);
 
