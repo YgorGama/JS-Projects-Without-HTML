@@ -1,6 +1,8 @@
-import imput from 'readline-sync';
+import input from 'readline-sync'; //A package which enable you make inputs with only JavaScripts 
 let juros;
 
+
+//Fuction in change of make the calculation of fees in the application
 function calculoJuros(valor, tempo){
     let valorExtra;
     let valorFinal;
@@ -18,8 +20,8 @@ function calculoJuros(valor, tempo){
 
 console.log("Aplicação de juros:\n\n");
 
-let valorDivida = imput.question('Informe o valor devido: ');
-let dias =imput.question('Informe quantos dias se passaram desdo vencimento do boleto: ');
+let valorDivida = input.question('Informe o valor devido: '); 
+let dias =input.question('Informe quantos dias se passaram desdo vencimento do boleto: ');
 
 let valorComJuros = calculoJuros(valorDivida, dias);
 
